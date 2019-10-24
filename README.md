@@ -19,9 +19,8 @@
 
 ### Steps:
 
-**1). Load data, standardize data and then do cluster analysis on variable x1-x6**
-
-_        (here we get the standardized value in index orders)_
+**1). Load data, standardize data and then do cluster analysis on variable x1-x6<br>**
+(here we get the standardized value in index orders)
 
 ![estimator](https://tva1.sinaimg.cn/large/006y8mN6gy1g89j210fyoj30hu09smy0.jpg)
 
@@ -36,10 +35,9 @@ _        (here we get the standardized value in index orders)_
 
 
 **4). to further validate and to get more information relating to these three clusters, we use K-means method to find out according centers and sizes**
+* here K-means use the default Hartigan and Wong algorithm
+
 ![estimator](https://tva1.sinaimg.cn/large/006y8mN6gy1g89j6f1yh8j30dy0eat9g.jpg)
-
-_\* here K-means use the default Hartigan and Wong algorithm_
-
 
 **5). after analyzing customers&#39; clustered preference on factor x1-x6, we then try to find how data relates to gender and educational level**
 
@@ -48,6 +46,8 @@ _\* here K-means use the default Hartigan and Wong algorithm_
 
    **b). gender**
    ![estimator](https://tva1.sinaimg.cn/large/006y8mN6gy1g89jai1876j30fy02ajra.jpg)
+
+
 
 
 **6). Finally, we find fitted value for education and gender (i.e. Mean, sun…)**
