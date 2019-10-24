@@ -1,5 +1,5 @@
 # Dairy-Farm-International-Holdings-Ltd.-customer-preference-data-analysis <br>
-from Dairy Farm International Holdings Ltd.
+(data from Dairy Farm International Holdings Ltd.)
 
 ### proposal:
   - **Objectives:** _to analyze what influence customer preference on milk purchase_
@@ -57,9 +57,12 @@ _\* here K-means use the default Hartigan and Wong algorithm_
 ## Conclusions drawn from the whole data-analysis:<br> 
 
   - **based on observed dendrogram, we can derive three clusters of customers (denoted by C1, C2, C3) who has preference based on different factors:**
-    - C1: large amount in Organic certification, and small amount in price, taste, and   origin
-    - C2: large amount in taste and origin, small amount in fat content, high quality certification and organic certification
-    - C3: large amount in price and fat content, small amount in taste, origin and organic certification
+    - C1: large amount in Organic certification, and small amount in price, taste, and origin<br>
+    （customers who require high organic certicifation usually put lower qualifications on price, taste and origin)<br>
+    - C2: large amount in taste and origin, small amount in fat content, high quality certification and organic certification<br>
+     (customers who prefer tastes and origin usually regard lower qualifications on fat content,quality certification and organic certification)<br>
+    - C3: large amount in price and fat content, small amount in taste, origin and organic certification<br>
+     (customers who consider too much about price usually regard lower qualifications on taste, origin and organic certification)<br>
   - **Based on factor analysis on &quot;gender&quot; and &quot;educational level&quot;, we derive:**
     - **Gender:** C2 has the largest mean in gender and C3 has the smallest
     - **Educational level:** C1 the largest mean in education level and C3 has the smallest
