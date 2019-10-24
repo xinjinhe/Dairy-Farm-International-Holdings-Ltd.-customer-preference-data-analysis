@@ -1,7 +1,7 @@
 # Dairy-Farm-International-Holdings-Ltd.-customer-preference-data-analysis <br>
 from Dairy Farm International Holdings Ltd.
 
-
+### proposal:
   - **Objectives:** _to analyze what influence customer preference on milk purchase_
   - **Variables included in this study are:**
     - _x1: Taste_
@@ -17,7 +17,7 @@ from Dairy Farm International Holdings Ltd.
 
 
 
-Steps_:_
+### Steps:
 
 **1). Load data, standardize data and then do cluster analysis on variable x1-x6**
 
@@ -43,10 +43,10 @@ _\* here K-means use the default Hartigan and Wong algorithm_
 
 **5). after analyzing customers&#39; clustered preference on factor x1-x6, we then try to find how data relates to gender and educational level**
 
-        **a). education**
+   **a). education**
    ![estimator](https://tva1.sinaimg.cn/large/006y8mN6gy1g89j9syjm4j30ek02eq2u.jpg)
 
-        **b). gender**
+   **b). gender**
    ![estimator](https://tva1.sinaimg.cn/large/006y8mN6gy1g89jai1876j30fy02ajra.jpg)
 
 
@@ -54,7 +54,7 @@ _\* here K-means use the default Hartigan and Wong algorithm_
    ![estimator](https://tva1.sinaimg.cn/large/006y8mN6gy1g89jb62bwqj30j0036aad.jpg)
 
 
-**Conclusions drawn from the whole data-analysis:<br>**
+## Conclusions drawn from the whole data-analysis:<br> 
 
   - **based on observed dendrogram, we can derive three clusters of customers (denoted by C1, C2, C3) who has preference based on different factors:**
     - C1: large amount in Organic certification, and small amount in price, taste, and   origin
